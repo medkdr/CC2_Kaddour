@@ -14,6 +14,10 @@ public class MyDatabase extends SQLiteOpenHelper{
     public static String COL3="Adresse";
     public static String COL4="Capitale";
 
+    public MyDatabase(listeentreprise listeentreprise) {
+        super();
+    }
+
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String sql = "create table " + TABLE_NAME + "("+COL1+" integer primary key autoincrement,"+COL2+" TEXT,"+COL3+" TEXT,"+COL4+" double)";

@@ -39,7 +39,7 @@ public class Entreprise implements Serializable{
         this.Adresse = Adresse;
     }
 
-    public double getCapitale() {
+    public String getCapitale() {
         return Capitale;
     }
 
