@@ -5,6 +5,7 @@
     <string name="editentreprise">Edite une Entreprise</string>
     <string name="Ajouter">Enregistrer </string>
     <string name="annuler">Annuler</string>
-
+    <string name="Modifier">Modifier </string>
+    <string name="Suprimer">Suprimer</string>
 
 </resources>
