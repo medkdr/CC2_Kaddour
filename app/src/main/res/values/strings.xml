@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CC2_Kaddour</string>
+    <string name="titremenu">Menu Generale</string>
+    <string name="addEntreprise">Ajouter une Entreprise</string>
+    <string name="editentreprise">Edite une Entreprise</string>
+    <string name="listentreprise">Liste de tous les Entreprise</string>
 </resources>
