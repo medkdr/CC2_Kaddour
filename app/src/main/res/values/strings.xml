@@ -3,5 +3,8 @@
     <string name="titremenu">Menu Generale</string>
     <string name="addEntreprise">Ajouter une Entreprise</string>
     <string name="editentreprise">Edite une Entreprise</string>
-    <string name="listentreprise">Liste de tous les Entreprise</string>
+    <string name="Ajouter">Enregistrer </string>
+    <string name="annuler">Annuler</string>
+
+
 </resources>
