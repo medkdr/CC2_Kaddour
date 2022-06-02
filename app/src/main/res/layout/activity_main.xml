@@ -15,20 +15,23 @@
         style="@style/btnadd"
         android:text="@string/addEntreprise"
         tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="283dp" />
+        tools:layout_editor_absoluteY="283dp"
+        android:onClick="acces"/>
 
     <Button
         android:id="@+id/b2"
         style="@style/btnedit"
         android:text="@string/editentreprise"
         tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="369dp" />
+        tools:layout_editor_absoluteY="369dp"
+        android:onClick="acces"/>
 
     <Button
         android:id="@+id/b3"
         style="@style/btnshow"
         android:text="@string/listentreprise"
         tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="458dp" />
+        tools:layout_editor_absoluteY="458dp"
+        android:onClick="acces"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
