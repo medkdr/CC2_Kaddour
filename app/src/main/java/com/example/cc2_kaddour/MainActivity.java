@@ -19,20 +19,35 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button b1, b2,b3;
+        Button b1, b2, b3;
         MyDatabase db;
         @Override
         protected void onCreate (Bundle savedInstanceState){
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
-            public void acces(View Thread view;
-            view) {
+            public void precedent(View view) {
+                Intent i = new Intent();
+                i.putExtra("Retour1","OK 1");
+                i.putExtra("Retour2","OK 2");
+                setResult(1,i);
+                finish();
+            }
+
+            public void acces (View Thread view;
+            view){
                 Intent i = null;
-                switch ((int) view.getId()){
-                    case R.id.b1: i=new Intent(MainActivity.this, MainActivity.class); break;
-                    case R.id.b2: i=new Intent(MainActivity.this, editeenreprise.class); break;
-                    case R.id.b3: i=new Intent(MainActivity.this, addentreprise.class); break;
+                switch ((int) view.getId()) {
+                    case R.id.b1:
+                        i = new Intent(MainActivity.this, MainActivity.class);
+                        break;
+                    case R.id.b2:
+                        i = new Intent(MainActivity.this, editeenreprise.class);
+                        break;
+                    case R.id.b3:
+                        i = new Intent(MainActivity.this, addentreprise.class);
+                        break;
                 }
                 startActivity(i);
 

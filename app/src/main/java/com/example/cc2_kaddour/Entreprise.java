@@ -15,7 +15,7 @@ public class Entreprise implements Serializable{
         this.Capitale = Capitale;
     }
 
-    public String getId() {
+    public int getId() {
         return ID;
     }
 
